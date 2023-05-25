@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+}
+.display {
+    background-color: pink;
+    width: 40vw;
+    height: 60vh;
+    box-sizing: border-box;
+}
+
+.display + .display {
+    margin-left: 5%;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.position {
+    position:relative;
+}
+
+.item {
+    background-color: grey;
+    width: 4vw;  
+}
+
+.item-1 {
+    height: 20%;
+} 
+
+.item-2 {
+    height: 80%;
+}
+
+.item-3 {
+    height: 40%;
+}
+
+.item-4 {
+    height: 30%;
+}
+
+.item-5  {
+    height:  60%;
+}
+
+.position .item {
+    position: relative;
+}
+
+.position .item-1 {
+    left: 1vw;
+    top: 80%;
+}
+
+.position .item-2 {
+    left: 6.5vw;
+}
+
+.position .item-3 {
+    left: 12vw;
+    bottom: 40%;
+}
+
+.position .item-4 {
+    left: 17.5vw;
+    bottom: 70%;
+}
+
+.position .item-5 {
+    left: 23vw;
+    bottom: 130%;
+}

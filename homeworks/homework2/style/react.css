@@ -1,0 +1,169 @@
+body {
+    font-family: tahoma;
+    background-color: rgb(237, 235, 235);
+}
+section {
+    width: 100vw;
+}
+
+h1 {
+    font-size:30px;
+    padding-left: 70px;
+}
+
+h2 {
+    font-size:40px;
+    padding-left: 70px;
+}
+
+h3 {
+    padding-left: 70px;
+    color: grey;
+    padding-bottom: 100px;
+}
+.menu {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.edition {
+    padding: 1.5ch;
+    display:flex;
+    flex-flow: row;
+    align-self: flex-start;
+    align-items: flex-start;
+}
+
+
+.text{
+    padding: 0.4ch 0.4ch;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-top: 2px solid grey;
+}
+
+.buyprint {
+    border-right: 1.5px solid grey;
+}
+
+.arrow {
+    padding: 0.2rem;
+    color: grey;
+}
+
+.mainimg {
+    max-width: 100%;
+    height:auto;
+}
+
+section.image-bar {
+    width:auto;
+}
+
+.first {
+    border-top: 4px solid seagreen;
+    padding: 4ch 0ch;
+    width: 80%;
+}
+
+.title-section {
+    display:flex;
+    flex-flow: column;
+    text-align: left;
+}
+
+.title-bottom {
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.title-bottom h5 {
+    max-width: 60%;
+}
+
+.right {
+    text-align: left;
+    display: flex;
+    flex-flow: row;
+    width: 20%;    
+    flex-grow: 1;
+    padding-bottom: 100px;
+}
+
+.rightbox1 {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    height: 100%;
+    flex-grow: 1;
+    padding-left: 1ch;
+    padding-right: 0.5ch;
+    padding-top: 0.5ch;
+    padding-bottom: 0.5ch;
+}
+
+.issue {
+    justify-content: center;
+    height: 50%;
+    border-left: 2px solid seagreen;
+    border-right: 2px solid seagreen;
+    border-top: 2px solid seagreen;
+}
+
+.date {
+    height: 50%;
+    border: 2px solid seagreen;
+}
+
+.frontend {
+    height: 68%;
+    border-right: 2px solid seagreen;
+    border-top: 2px solid seagreen;
+    border-bottom: 2px solid seagreen;
+    flex-grow: 3;
+    position: relative;
+    top:19px;
+    left:-5px;
+}
+
+p {
+    text-align: left;
+}
+
+article {
+    width: 70%;
+    padding-right: 5%;
+    padding-left:100px;
+}
+
+aside#first-aside {
+    border-top: 2px solid seagreen;
+    border-bottom:2px solid seagreen;
+    color:2px solid seagreen;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    width: 25%;
+}
+
+section.article {
+    display:flex;
+    flex-flow: row;
+}
+
+aside img {
+    width:100%;
+}
+
+.previssue {
+    background-color:white;
+    margin-left: 100px;
+}
+
+.previssuebottom
+{
+    margin-left: 100px;
+}

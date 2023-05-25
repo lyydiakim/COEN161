@@ -1,0 +1,37 @@
+* { /* sets all elements margin and padding to 0 */
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    --main-bg-color: #9b59b6;
+    --accent-color: rgb(198, 106, 121);
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+    --padding-sm: 1rem;
+    --padding-md: 1.5rem;
+    --padding-lg: 3 rem;
+    --margin-sm: 5px;
+    --margin-md: 10px;
+    --margin-lg: 15px;
+
+    display: flex;
+    flex-flow: row;
+    height: 100 vh; /* height entire viewport */
+    width: 100 vw; /* width entire viewport */
+   
+    background: var(--main-bg-color);
+    accent-color: var(--accent-color);
+
+
+    overflow: hidden; /*disables scrolling */
+}
+
+main {
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    background:white;
+    flex: 1 0 auto; /*flex grow , shrink, basis */
+}
+

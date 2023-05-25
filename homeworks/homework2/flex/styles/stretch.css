@@ -1,0 +1,32 @@
+.container{
+    display:flex;  
+}
+
+.item1 {
+
+    background-color: pink;
+    border-radius: 5px;
+    height:100px;
+    flex-grow:1;
+}
+
+.item1 + .item1 , .item + .item {
+    margin-left: 2%;
+}
+
+.item {
+    background-color: pink;
+    border-radius: 5px;
+    width: 100px;
+    height:100px;
+}
+
+.item-center { /*for stretch middle fixed spacing */
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-grow:1;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+

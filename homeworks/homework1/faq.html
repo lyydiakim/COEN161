@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <title>FAQ</title>
+    <style> 
+        h1 {
+        color: magenta;
+        font-family: verdana;
+        font-size: 300%;
+        }
+
+        h2 {
+        font-family: verdana;
+        font-size: 150%;
+        }
+
+        details {
+        font-family: verdana;
+        font-size: 100%;
+        }
+
+        p {
+        font-family: verdana;
+        font-size: 100%;
+        }
+</style>
+</head>
+
+<body class="language-html">
+    <h1>FAQ</h1>
+    <h2>What did I do to get the brackets to show up correctly? </h2>
+    <p>To get brackets to show up I use &amp;lt; and &amp;gt; to replace the brackets in my code.</p>
+   
+    <details>
+        <summary>When do you use an &lt;ol&gt; vs a &lt;ul&gt;?</summary>
+        <p>You use an ol for an ordered list and ul for an unordered list. Inside both ul and ol you will list the list items using the tags &lt;li&gt; and &lt;li&gt; </p>
+    </details>
+
+    <details>
+            <summary>What does the alt attribute of an &lt;img&gt; do? </summary>
+            <p> It provides alternate text if the user is unable to read the text, this is just a brief description of what the image describes.</p>
+    </details>
+
+    <details>
+            <summary>How do you use an &lt;a&gt;?</summary>
+            <p>This is the hyperlink tag to bring the user from one webpage to another. If there is no href, then it simply holds as an anchor as where a link might have or should be placed.</p>
+    </details>
+
+    <details>
+        <summary>With correct semantics, are you allowed to have more than 1 &lt;header&gt; element per HTML page?</summary>
+        <p>Yes, a header in the main and one in the body.</p>
+    </details>
+
+    <details>
+        <summary>How do you indicate that a &lt;video&gt; can have multiple different sources?</summary>
+        <p> 
+            <code class="language-html">
+                &lt;video controls&gt;
+                &lt;source src="examplevideosource" type="video/webm"&gt;
+                &lt;source src="examplevideosource" type="video/mp4"&gt;
+                &lt;/video&gt;
+            </code>
+    </details>
+</body>
+</html>
